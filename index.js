@@ -5,7 +5,7 @@ app.get('/home',(req,resp)=>{
     console.log('browser requested')
     resp.send('<h1>hello hi</h1>')
 })
-app.post('/',(req,resp)=>{
+app.post('/home',(req,resp)=>{
     console.log('pos trequest')
     resp.send('<h1>post regwuest</h1>')
 })
