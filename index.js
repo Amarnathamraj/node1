@@ -10,7 +10,7 @@ app.post('/home',(req,resp)=>{
     resp.send('<h1>post regwuest</h1>')
 })
 app.delete('/home',(req,res)=>{
-    console.log('delted ')
+    console.log('delted')
     res.send('deleted ')
 })
 app.listen(8080,()=>{
